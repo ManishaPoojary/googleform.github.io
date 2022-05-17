@@ -13,7 +13,7 @@ color: red;
 }
 .title-div{
     height: 150px;
-    width: 600px;
+    width: 570px;
     background-color: #FDFEFE;
     margin: 15px;
     border-radius: 8px;
@@ -22,7 +22,7 @@ color: red;
 }
 .name-div, .college-div, .gmail-div, .mobile-div, .address-div, .gender-div, .education-div, .fileupload-div, .qualification-div, .accept-div{
     height: 150px;
-    width: 650px;
+    width: 610px;
     background-color: #FDFEFE;
     margin: 15px;
     border-radius: 8px;
