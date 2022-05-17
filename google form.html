@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="google_form.css">
+</head>
+<body>
+    <div class="form">
+
+        <div class="title-div">
+<h1>WEBSTAR</h1>
+<p>This is a training program given by webstar. In this course you will be learning HTML, CSS, JAVASCRIPT.</p>
+<p class="required">*Required</p>
+        </div>
+
+<div class="name-div">
+    <div class="name">What is your name? <span class="required">*</span></div>
+    <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+</div>
+
+<div class="college-div">
+    <div class="name">Enter your College name <span class="required">*</span></div>
+    <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+</div>
+
+<div class="gmail-div">
+    <div class="name">Enter your email <span class="required">*</span></div>
+    <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+</div>
+
+<div class="mobile-div">
+    <div class="name">Enter your Phone number <span class="required">*</span></div>
+    <div class="input-div"><input type="input" name="answer" placeholder="Your answer"></div>
+</div>
+
+<div class="address-div">
+    <div class="name">Enter your Address <span class="required">*</span></div>
+    <div class="input-div"><textarea name="address" id="" cols="30" rows=""></textarea></div>
+</div>
+
+<div class="gender-div">
+    <div class="name">Gender <span class="required">*</span></div>
+    <div class="input-div"> <input type="radio" name="mygender">Male
+       <input type="radio" name="mygender">Female
+       <input type="radio" name="mygender">Other</div>
+</div>
+
+<div class="education-div">
+    <div class="name">Education <span class="required">*</span></div>
+    <div class="input-div">10th<input type="checkbox" name="answer"> Enter your percentage<input type="number" name="answer"></div>
+    <div class="input-div">12th<input type="checkbox" name="answer"> Enter your percentage<input type="number" name="answer"></div>
+    <div class="input-div">15th<input type="checkbox" name="answer"> Enter your percentage or cgpa<input type="number" name="answer"></div>
+</div>
+
+<div class="fileupload-div">
+    <div class="name">File Upload <span class="required">*</span></div>
+    <div class="input-div"><input type="file" id="myFile" name="filename"></div>
+</div>
+
+<div class="qualification-div">
+    <div class="name">Qualification Course <span class="required">*</span></div>
+    <select name="courses" id="qualification">
+    <option value="BSC CS">BSC CS</option>
+    <option value="BSC IT">BSC IT</option>
+    <option value="BSC">BSC</option>
+     <option value="COMMERCE">COMMERCE</option>
+     <option value="ARTS">ARTS</option>
+     <option value="ENGINEERING">ENGINEERING</option></select>
+</div>
+
+<div class="accept-div">
+    <div class="name">Declaration <span class="required">*</span></div>
+    <span id="declaration">This form is filled with true information. And i agree to be a part of Webstar. I will attend the training program with 100% attendence.
+    <div class="input-div"><input type="checkbox" name="answer">I agree</div></span>
+</div>
+    
+<input class="btn" type="submit" value="submit">
+<input class="btn1" type="reset" value="reset">
+
+<div class="last-div">
+    <p class="never">Never submit passwords through Google Forms.</p>
+    <p class="term">This content is neither created nor endorsed by Google, Report Abuse - Term of Service - Private Policy</p>
+    <h2>Google Forms</h2>
+</div>
+    </div>
+</body>
+</html>
